@@ -1,0 +1,47 @@
+body {
+  max-height: 80vh;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 85%;
+  cursor: pointer;
+}
+
+.box {
+  height: 50%;
+  width: 100%;
+  /*  border: 0.5px solid #996515;
+  border-radius: 12px; */
+  padding: 2%;
+}
+
+/*.box:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+*/
+.content {
+  background-color: white;
+  padding: 2%;
+  min-height: 73.5vh;
+  max-height: 73.5vh;
+  overflow-y: scroll;
+}
+
+.wrapper {
+  height: 80vh;
+  margin-top: 1.8%;
+  margin-right: 2%;
+}
+
+h4 {
+  font-weight: bold;
+}

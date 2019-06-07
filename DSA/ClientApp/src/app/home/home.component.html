@@ -1,0 +1,80 @@
+<router-outlet></router-outlet>
+<body>
+  <div class="back" [ngStyle]="{'background-image': getUrl()}">
+    <div class="img">
+      <div class="textbox">
+        <h1>Problems we solve</h1>
+        <p>DSA is Dow's centralized analytics organization focused on delivering business value.  We handle everything from business reporting & visualization, to addressing complex problems no one else has explored, to providing the tools for employees to do their own exploring, all the way to consulting and solution adoption.  Regardless of the problem you're trying to solve, we can help point you in the right direction.  </p>
+      </div>
+    </div>
+    <!--<button class="btn btn-primary btn-lg button" type="button" mdbWavesEffect>Success Stories</button>-->
+    <div class="buttonsvg">
+    <a [routerLink]="['/successstories']" routerLinkActive="active">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="48" viewBox="0 0 148 48"><defs><style>.a{fill:none;}.b{clip-path:url(#a);}.c{fill:#00aeef;}.d{fill:#fff;font-size:14px;font-family:Arial-BoldMT, Arial;font-weight:700;}</style><clipPath id="a"><rect class="a" width="148" height="48"/></clipPath></defs><g class="b"><path class="c" d="M4,0H144a4,4,0,0,1,4,4V44a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z"/><text class="d" transform="translate(74 28)"><tspan x="-53.31" y="0">Success stories</tspan></text></g></svg>
+    </a>
+    </div>
+
+
+  </div>
+
+  <div class="nav">
+    <div class="container m-t-md">
+      <!-- Second row -->
+      <div class="row m-t-md">
+        <div class="col-xs-12 col-md-3">
+          <!-- Card -->
+          <a [routerLink]="['/explore']" routerLinkActive="active">
+          <article class="card card-inverse animated fadeInDown">
+            <div class="card-img-overlay">
+              <i class="material-icons">explore</i>             
+                <div class="title"><b>Solutions</b><hr style="width:85%;"></div>                          
+            </div>
+          </article><!-- .end Card -->
+          </a> 
+        </div>
+
+        <div class="col-xs-12 col-md-3">
+          <!-- Card -->
+          <a [routerLink]="['/sstools']" routerLinkActive="active">
+          <article class="card card-inverse animated fadeInDown">
+            <div class="card-img-overlay">
+              <i class="material-icons">equalizer</i>              
+                <div class="title"><b>Services</b><hr style="width:85%;"></div>              
+            </div>
+          </article><!-- .end Card -->
+        </a>
+        </div>
+
+
+
+        <div class="col-xs-12 col-md-3">
+          <!-- Card -->
+          <a [routerLink]="['/request']" routerLinkActive="active">
+          <article class="card card-inverse animated fadeInDown">
+            <div class="card-img-overlay">
+              <i class="material-icons">chat_bubble</i>
+                <div class="title"><b>Submit Request</b><hr style="width:85%;"></div>
+            </div>
+          </article><!-- .end Card -->
+        </a>
+        </div>
+
+        <div class="col-xs-12 col-md-3">
+          <!-- Card -->
+          <a [routerLink]="['/value']" routerLinkActive="active">
+          <article class="card card-inverse animated fadeInDown">
+            <div class="card-img-overlay">
+              <i class="material-icons">help</i>
+                <div class="title"><b>Help</b><hr style="width:85%;"></div>
+            </div>
+          </article><!-- .end Card -->
+        </a>
+        </div>
+
+      </div><!-- .end Second row -->
+    </div>
+  </div>
+
+
+
+</body>
